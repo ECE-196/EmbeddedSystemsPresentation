@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "presentationkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AdinAck/PresentationKit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f73c7876dfee21be617961c9f088ccc071d0d8bb"
+      }
+    },
+    {
+      "identity" : "swiftui-shimmer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/markiv/SwiftUI-Shimmer",
+      "state" : {
+        "revision" : "1f3a620e4abe890d00008cb2af7023d810b433a7",
+        "version" : "1.4.0"
+      }
+    }
+  ],
+  "version" : 2
+}

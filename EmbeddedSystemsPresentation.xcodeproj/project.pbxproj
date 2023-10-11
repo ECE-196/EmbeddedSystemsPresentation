@@ -8,18 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		402D3D232AD31EF900EB7004 /* EmbeddedSystemsPresentationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402D3D222AD31EF900EB7004 /* EmbeddedSystemsPresentationApp.swift */; };
-		402D3D252AD31EF900EB7004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402D3D242AD31EF900EB7004 /* ContentView.swift */; };
 		402D3D272AD31EFA00EB7004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402D3D262AD31EFA00EB7004 /* Assets.xcassets */; };
 		402D3D2A2AD31EFA00EB7004 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402D3D292AD31EFA00EB7004 /* Preview Assets.xcassets */; };
+		402D3D332AD31F2700EB7004 /* PresentationKit in Frameworks */ = {isa = PBXBuildFile; productRef = 402D3D322AD31F2700EB7004 /* PresentationKit */; };
+		402D3D362AD31FFC00EB7004 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402D3D352AD31FFC00EB7004 /* Title.swift */; };
+		402D3D382AD3224400EB7004 /* What.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402D3D372AD3224400EB7004 /* What.swift */; };
+		402D3D3A2AD3243F00EB7004 /* MCU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402D3D392AD3243F00EB7004 /* MCU.swift */; };
+		402D3D402AD32FB900EB7004 /* Shimmer in Frameworks */ = {isa = PBXBuildFile; productRef = 402D3D3F2AD32FB900EB7004 /* Shimmer */; };
+		402D3D422AD394FF00EB7004 /* Arduino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402D3D412AD394FF00EB7004 /* Arduino.swift */; };
+		402D3D442AD39D1600EB7004 /* SwiftIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402D3D432AD39D1600EB7004 /* SwiftIntro.swift */; };
+		402D3D4B2AD7063100EB7004 /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402D3D4A2AD7063100EB7004 /* Code.swift */; };
+		402D3D4D2AD70C1700EB7004 /* Rust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402D3D4C2AD70C1700EB7004 /* Rust.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		402D3D1F2AD31EF900EB7004 /* EmbeddedSystemsPresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmbeddedSystemsPresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		402D3D222AD31EF900EB7004 /* EmbeddedSystemsPresentationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedSystemsPresentationApp.swift; sourceTree = "<group>"; };
-		402D3D242AD31EF900EB7004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		402D3D262AD31EFA00EB7004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		402D3D292AD31EFA00EB7004 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		402D3D2B2AD31EFA00EB7004 /* EmbeddedSystemsPresentation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EmbeddedSystemsPresentation.entitlements; sourceTree = "<group>"; };
+		402D3D352AD31FFC00EB7004 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		402D3D372AD3224400EB7004 /* What.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What.swift; sourceTree = "<group>"; };
+		402D3D392AD3243F00EB7004 /* MCU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCU.swift; sourceTree = "<group>"; };
+		402D3D412AD394FF00EB7004 /* Arduino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arduino.swift; sourceTree = "<group>"; };
+		402D3D432AD39D1600EB7004 /* SwiftIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftIntro.swift; sourceTree = "<group>"; };
+		402D3D4A2AD7063100EB7004 /* Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code.swift; sourceTree = "<group>"; };
+		402D3D4C2AD70C1700EB7004 /* Rust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rust.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402D3D402AD32FB900EB7004 /* Shimmer in Frameworks */,
+				402D3D332AD31F2700EB7004 /* PresentationKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +69,8 @@
 			isa = PBXGroup;
 			children = (
 				402D3D222AD31EF900EB7004 /* EmbeddedSystemsPresentationApp.swift */,
-				402D3D242AD31EF900EB7004 /* ContentView.swift */,
+				402D3D342AD31FE200EB7004 /* Slides */,
+				402D3D452AD6F74200EB7004 /* Other */,
 				402D3D262AD31EFA00EB7004 /* Assets.xcassets */,
 				402D3D2B2AD31EFA00EB7004 /* EmbeddedSystemsPresentation.entitlements */,
 				402D3D282AD31EFA00EB7004 /* Preview Content */,
@@ -67,6 +84,27 @@
 				402D3D292AD31EFA00EB7004 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		402D3D342AD31FE200EB7004 /* Slides */ = {
+			isa = PBXGroup;
+			children = (
+				402D3D352AD31FFC00EB7004 /* Title.swift */,
+				402D3D372AD3224400EB7004 /* What.swift */,
+				402D3D412AD394FF00EB7004 /* Arduino.swift */,
+				402D3D392AD3243F00EB7004 /* MCU.swift */,
+				402D3D4A2AD7063100EB7004 /* Code.swift */,
+				402D3D432AD39D1600EB7004 /* SwiftIntro.swift */,
+			);
+			path = Slides;
+			sourceTree = "<group>";
+		};
+		402D3D452AD6F74200EB7004 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				402D3D4C2AD70C1700EB7004 /* Rust.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +123,10 @@
 			dependencies = (
 			);
 			name = EmbeddedSystemsPresentation;
+			packageProductDependencies = (
+				402D3D322AD31F2700EB7004 /* PresentationKit */,
+				402D3D3F2AD32FB900EB7004 /* Shimmer */,
+			);
 			productName = EmbeddedSystemsPresentation;
 			productReference = 402D3D1F2AD31EF900EB7004 /* EmbeddedSystemsPresentation.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +155,10 @@
 				Base,
 			);
 			mainGroup = 402D3D162AD31EF900EB7004;
+			packageReferences = (
+				402D3D312AD31F2700EB7004 /* XCRemoteSwiftPackageReference "PresentationKit" */,
+				402D3D3E2AD32FB900EB7004 /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */,
+			);
 			productRefGroup = 402D3D202AD31EF900EB7004 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,7 +185,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				402D3D252AD31EF900EB7004 /* ContentView.swift in Sources */,
+				402D3D362AD31FFC00EB7004 /* Title.swift in Sources */,
+				402D3D3A2AD3243F00EB7004 /* MCU.swift in Sources */,
+				402D3D422AD394FF00EB7004 /* Arduino.swift in Sources */,
+				402D3D4D2AD70C1700EB7004 /* Rust.swift in Sources */,
+				402D3D442AD39D1600EB7004 /* SwiftIntro.swift in Sources */,
+				402D3D382AD3224400EB7004 /* What.swift in Sources */,
+				402D3D4B2AD7063100EB7004 /* Code.swift in Sources */,
 				402D3D232AD31EF900EB7004 /* EmbeddedSystemsPresentationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +393,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		402D3D312AD31F2700EB7004 /* XCRemoteSwiftPackageReference "PresentationKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AdinAck/PresentationKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		402D3D3E2AD32FB900EB7004 /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/markiv/SwiftUI-Shimmer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		402D3D322AD31F2700EB7004 /* PresentationKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 402D3D312AD31F2700EB7004 /* XCRemoteSwiftPackageReference "PresentationKit" */;
+			productName = PresentationKit;
+		};
+		402D3D3F2AD32FB900EB7004 /* Shimmer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 402D3D3E2AD32FB900EB7004 /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */;
+			productName = Shimmer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 402D3D172AD31EF900EB7004 /* Project object */;
 }
